@@ -1,2 +1,14 @@
 # spotify-pages
- Projeto colaborativo para criação de páginas inspiradas no spotify.
+ Projeto colaborativo para criação de páginas inspiradas no spotify. Interface pricipal atrativa com caminhos para área de login e cadastro.
+
+## Gabriel Rosas:
+
+ LinkedIn:  https://www.linkedin.com/in/devgabrielrosas/
+ <br>
+ Instagram: https://www.instagram.com/_devgabrielrosas/
+ <br>
+
+## Pedro Hernany:
+
+ LinkedIn: https://www.linkedin.com/in/pedrowhny/
+ <br>

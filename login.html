@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Spotify</title>
+    <link rel="shortcut icon" href="assets/images/Spotify_Primary_Logo_RGB_White 1.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style-login.css">
+
+</head>
+<body>
+    <main>
+        <a href="index.html"><img src="assets/images/Spotify_Primary_Logo_RGB_White 1.png" alt="Spotify"></a>
+        <h1>Log in to Spotify</h1>
+
+        <ul>
+            <li><img class="li__icon" src="assets/images/google.png" alt=""><a href="#">Continue with Google</a></li>
+            <li><img class="li__icon" src="assets/images/facebook.png" alt=""><a href="#">Continue with Facebook</a></li>
+            <li><img class="li__icon" src="assets/images/mac-os.png" alt=""><a href="#">Continue with Apple</a></li>
+            <li><a href="#">Continue with phone number</a></li>
+        </ul>
+
+        <form action="#" method="post" autocomplete="on">
+
+            <label for="iemail"><p>Email or username</p></label>
+            <input class="form__campo" type="email" name="email" id="iemail" placeholder="Email or username" autocomplete="username" required>
+
+            <label id="label-password" for="ipassword"><p>Password</p></label>
+            <input class="form__campo" type="password" name="password" id="ipassword" placeholder="Password" autocomplete="current-password" required>
+
+            <input id="input-submit" type="submit" value="Log In">
+        </form>
+
+        <a id="forgot" class="link-exposto" href="#">Forgot your password?</a>
+
+        <p class="signup">Don't have an account? <a class="link-exposto" href="#">Sign up for Spotify</a></p>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por <a href="https://www.linkedin.com/in/pedrowhny/" target="_blank">Pedro Hernany</a> e <a href="https://www.linkedin.com/in/devgabrielrosas/" target="_blank">Gabriel Rosas</a>.</p>
+    </footer>
+</body>
+</html>
