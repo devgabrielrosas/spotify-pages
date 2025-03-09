@@ -1,0 +1,175 @@
+/* Fonte Utilizada */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    min-height: 100dvh;
+    background-image: linear-gradient(to bottom, #2A2A2A, #010101);
+    font-family: "DM Sans", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Conteúdo Principal */
+main {
+    background-color: #121212;
+    margin: 30px 0;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    padding: 30px;
+    width: 730px;
+}
+
+main img {
+    width: 38px;
+}
+
+main h1 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+/* Lista de links */
+
+main ul {
+    margin-bottom: 0.15px;
+    padding: 30px;
+    width: 500px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main ul li {
+    width: 320px;
+    border-radius: 50px;
+    border: 1px solid #8d8d8d;
+    padding: 12px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main ul li:hover {
+    border: 1px solid #fff;
+}
+
+.li__icon {
+    display: block;
+    width: 20px;
+    margin-left: 15px;
+}
+
+main ul li a {
+    width: 22ch;
+    margin-left: 30px;
+    text-decoration: none;
+    text-transform: none;
+    font-weight: bold;
+    color: #fff;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 20px; /* Adiciona espaçamento acima do formulário */
+    border-bottom: 1px solid #292929;
+}
+
+form label {
+    display: block;
+    align-self: flex-start;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    padding-bottom: 5px;
+    text-indent: 12px;
+}
+
+input.form__campo {
+    height: 45px;
+    width: 320px;
+    border-radius: 3px;
+    background-color: #121212;
+    border: 1px solid #8d8d8d;
+    padding: 7px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input.form__campo:focus {
+    outline: none;
+    outline-color: none;
+    border: 3px solid #fff;
+    color: #fff;
+    transition: 0.1s;
+}
+
+#label-password {
+    margin-top: 25px;
+}
+
+#input-submit {
+    margin: 20px;
+    width: 300px;
+    border-radius: 50px;
+    padding: 15px;
+    font-weight: 700;
+    font-size: 16px;
+    background-color: #1ed760;
+    border: none;
+    cursor: pointer;
+}
+
+#input-submit:hover {
+    background-color: #3BE477;
+    transform: scale(1.03);
+}
+
+/* Links */
+#phone {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    color: #fff;
+}
+
+a.link-exposto {
+    color: #3BE477;
+}
+
+/* Rodapé */
+footer {
+    background-color: #121212;
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    color: #B3B3B3;
+    font-size: 14px;
+}
+
+footer p a {
+    color: #B3B3B3;
+}
