@@ -5,7 +5,7 @@
 
  LinkedIn:  https://www.linkedin.com/in/devgabrielrosas/
  <br>
- Instagram: https://www.instagram.com/_devgabrielrosas/
+ Linktree: https://linktr.ee/rosasgabriel
  <br>
 
 ## Pedro Hernany:
